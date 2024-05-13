@@ -4,8 +4,7 @@ import json
 
 app = Flask(__name__)
 
-# Load your SVG path data as polygons
-# This should be replaced with actual loading and conversion of SVG paths to `Polygon` objects.
+
 countries = {
     'CountryID': Polygon([(0, 0), (1, 0), (1, 1), (0, 1)]),
     
